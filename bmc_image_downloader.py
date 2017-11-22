@@ -18,5 +18,5 @@ base_url = bmc_url + "gallery/download5.php?image=DSC_{}.jpg"
 
 for count, match in enumerate(matches):
     urllib.request.urlretrieve(base_url.format(match), match + ".jpg")
-    sys.stdout.write("Downloading: {}/{}\r".format(count+1, len(matches)))
+    sys.stdout.write("Downloading: {}/{}\r".format(count + 1, len(matches)))
     sys.stdout.flush()

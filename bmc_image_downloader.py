@@ -1,6 +1,7 @@
 """Download all the images from the Bangalore Microscopy Course gallery.
+
+Images are located here: https://www.ncbs.res.in/BangaloreMicroscopyCourse/2017/gallery
 """
-from __future__ import print_function
 import urllib.request
 import re
 import sys
